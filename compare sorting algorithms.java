@@ -59,6 +59,9 @@ public class AlgorithmComparison {
             case QUICK:
                 GFG.quickSort(arr2, 0, arr2.length - 1);
                 break;
+            case QUICK:
+                CountingSort.sort(arr2, 0, arr2.length - 1);
+                break;
         }
 
         long endTime = System.nanoTime();
